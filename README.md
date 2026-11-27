@@ -21,6 +21,8 @@ One front page summing up Thursday 26 November 2026: 39 stories from 10 regions,
 
 `entry.png` (1024x1024) is drawn with Python and Pillow using real TTF fonts; `main.ts` copies it to `/output/entry.png`. Both runs write identical bytes.
 
+The layout follows the winning front-page formula of the news-image series: masthead, number strip, region bar, UTC timeline, illustrated story cards, a pin map, a colour-matched story list, and a date-check box.
+
 Built for [make.fun](https://make.fun/?ref=pce6ysea).
 
 Stories are tagged CONFIRMED, OFFICIAL, REPORTED or CLAIM, and disputed claims are attributed to their source.
